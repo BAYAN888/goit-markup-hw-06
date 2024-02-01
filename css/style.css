@@ -94,6 +94,7 @@ h2 {
 
 .container {
   /* width: 1158px; */
+  max-width: 294px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -279,7 +280,6 @@ h2 {
 .team {
   background: #f4f4fd;
   /* padding-top: 120px; */
-  width: 320px;
   padding-top: 96px;
   padding-bottom: 120px;
 }
@@ -888,3 +888,25 @@ a {
   color: #4d5ae5;
 }
 /*------------------------------------*/
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 294px;
+  }
+
+  .team {
+    background: #f4f4fd;
+    padding-top: 96px;
+    padding-bottom: 120px;
+  }
+
+  .mark {
+    width: calc((100% - 24px) / 2);
+    margin-bottom: 96px;
+  }
+
+  .team-list {
+    display: flex;
+    gap: 32px;
+  }
+}
