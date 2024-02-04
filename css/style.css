@@ -23,6 +23,10 @@
   background: #404bbf;
 }
 
+img {
+  max-width: 100%;
+}
+
 p {
   margin-bottom: 0;
   margin: 0;
@@ -93,7 +97,7 @@ h2 {
 }
 
 .container {
-  /* width: 1158px; */
+  width: 1158px;
   max-width: 294px;
   padding-left: 15px;
   padding-right: 15px;
@@ -279,9 +283,8 @@ h2 {
 
 .team {
   background: #f4f4fd;
-  /* padding-top: 120px; */
+  padding-top: 120px;
   padding-top: 96px;
-  padding-bottom: 120px;
 }
 
 .team-title {
@@ -309,7 +312,7 @@ h2 {
 .mark {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
-  /* width: calc((100% - 3 * 24px) / 4); */
+  width: calc((100% - 3 * 24px) / 4);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -352,7 +355,7 @@ h2 {
 }
 
 .team-list {
-  /* display: flex; */
+  display: flex;
   gap: 24px;
 }
 
@@ -889,7 +892,7 @@ a {
 }
 /*------------------------------------*/
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .container {
     max-width: 294px;
   }
@@ -909,4 +912,4 @@ a {
     display: flex;
     gap: 32px;
   }
-}
+} */
