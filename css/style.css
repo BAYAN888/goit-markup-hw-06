@@ -893,6 +893,12 @@ a {
 @media screen and (min-width: 320px) {
   .button-icon {
     display: block;
+    cursor: pointer;
+  }
+
+  .header {
+    width: 320px;
+    height: 56px;
   }
 
   .adress-link-list {
@@ -908,6 +914,19 @@ a {
     height: 56px;
   }
 
+  /* .open,
+  .header-menu {
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #fff;
+    width: 320px;
+    height: 640px;
+  } */
+
   .hero-container {
     width: 320px;
     height: 432px;
@@ -918,12 +937,32 @@ a {
     height: 432px;
     padding-top: 72px;
     padding-bottom: 200px;
-    background-image: url(../images/);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bgg-min.png);
   }
   .section {
     width: 216px;
     height: 160px;
     font-size: 36px;
     line-height: 1, 1px;
+  }
+
+  .container-feature {
+    display: none;
+  }
+
+  .first-list {
+  }
+
+  .paragraph-fture {
+  }
+
+  .container {
+  }
+
+  .section-first {
   }
 }
