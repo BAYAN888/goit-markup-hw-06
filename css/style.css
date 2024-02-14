@@ -86,6 +86,15 @@ h2 {
   position: fixed;
   top: 0;
   padding-left: 16px;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.is-open-mb {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .mob-menu {
@@ -804,8 +813,8 @@ a {
 }
 
 .modal {
-  width: 408px;
-  min-height: 584px;
+  width: 288px;
+  min-height: 623px;
   border-radius: 4px;
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
     0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
@@ -876,7 +885,7 @@ a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  width: 360px;
+  width: 256px;
   height: 24px;
   margin-right: 24px;
   margin-bottom: 16px;
